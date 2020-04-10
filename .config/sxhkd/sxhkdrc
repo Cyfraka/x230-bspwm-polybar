@@ -41,7 +41,7 @@ XF86MonBrightnessUp
 
 # PrintScreen
 Print
-	flameshot fullscreen /Pictures
+	scrot ~/pictures/%d-%m-%Y-%T-screenshot.png
 
 # Language Toggle set in terminal for xkeyboard
 #setxkbmap -option grp:alt_shift_toggle
