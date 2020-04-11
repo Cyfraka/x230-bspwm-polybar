@@ -1,52 +1,52 @@
 !! Colorscheme
 
 ! special
-*.foreground: #93a1a1
-*.background: #141c21
-*.cursorColor: #afbfbf
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
 
 ! black
-*.color0: #263640
-*.color8: #4a697d
+*.color0:       #000000
+*.color8:       #4d4d4d
 
 ! red
-*.color1: #d12f2c
-*.color9: #fa3935
+*.color1:       #cc0403
+*.color9:       #3e0605
 
 ! green
-*.color2: #819400
-*.color10: #a4bd00
+*.color2:       #19cb00
+*.color10:      #23fd00
 
 ! yellow
-*.color3: #b08500
-*.color11: #d9a400
+*.color3:       #cecb00
+*.color11:      #fffd00
 
 ! blue
-*.color4: #2587cc
-*.color12: #2ca2f5
+*.color4:       #001cd1
+*.color12:      #0026ff
 
 ! magenta
-*.color5: #696ebf
-*.color13: #8086e8
+*.color5:       #cb1ed1
+*.color13:      #fd28ff
 
 ! cyan
-*.color6: #289c93
-*.color14: #33c5ba
+*.color6:       #0dcdcd
+*.color14:      #14ffff
 
 ! white
-*.color7: #bfbaac
-*.color15: #fdf6e3
+*.color7:       #e5e5e5
+*.color15:      #ffffff
 
 !! URxvt Appearance
 URxvt.boldfFont: xft:Source code Pro:bold:pixelsize=12
 URxvt.font: xft:JetBrainsMonoMedium Nerd Font:size=8
 
-URxvt.letterSpace: -1
-URxvt.lineSpace: 0
+URxvt.letterSpace: -1 
+URxvt.lineSpace: 0 
 URxvt.geometry: 92x24
 URxvt.internalBorder: 10
 URxvt.cursorBlink: true
-URxvt.cursorUnderline: true
+URxvt.cursorUnderline: true 
 URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false

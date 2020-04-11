@@ -10,7 +10,6 @@ polybar Cyfraka &
 sxhkd &
 dunst &
 
-
 ###---Monitors configuration---###
 bspc monitor LVDS1 -d 1 2 3 4 5 6 7 8 9 0 
 
@@ -26,14 +25,14 @@ xrandr --output LVDS1 --primary --mode 1366x768 --rotate normal --output VGA1 --
 ###---Custom configuration---###
 
 ### Wallpaper
-xwallpaper --zoom  /home/cyfraka/arch-linux-wallpaper.png &
+xwallpaper --zoom /home/cyfraka/arch-linux-wallpaper.png &
 
 ### Xresources
 xrdb .Xresources
 
 ### Compton
-picom -b &
-picom -f & 
+#ipicom -b &
+#picom -f & 
 
 ### Polybar
 /home/cyfraka/.config/polybar/config.sh &
