@@ -157,3 +157,11 @@ super + {Left,Down,Up,Right}
 super + shift + f
 	sudo killall firefox ; firefox ;
 
+## Thunar
+super + shift + t
+	sudo killall thunar ; thunar ;
+
+## Discord
+super + shift + d
+	sudo killall discord ; discord ;
+
