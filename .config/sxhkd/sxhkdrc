@@ -163,5 +163,5 @@ super + shift + t
 
 ## Discord
 super + shift + d
-	sudo killall discord ; discord ;
+	sudo killall discord-canary ; discord-canary ;
 
