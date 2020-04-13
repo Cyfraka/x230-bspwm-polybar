@@ -38,11 +38,11 @@
 *.color15:      #ffffff
 
 !! URxvt Appearance
-URxvt.boldfFont: xft:Source code Pro:bold:pixelsize=12
-URxvt.font: xft:JetBrainsMonoMedium Nerd Font:size=8
+URxvt.boldfFont: xft:Source Code Pro:bold:pixelsize=12
+URxvt.font: xft:JetBrains Mono:Regular:size=8
 
-URxvt.letterSpace: -1 
-URxvt.lineSpace: 0 
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
 URxvt.geometry: 92x24
 URxvt.internalBorder: 10
 URxvt.cursorBlink: true
