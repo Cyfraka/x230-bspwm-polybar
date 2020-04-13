@@ -59,7 +59,7 @@ font-5 = FontAwesome5Brands:style=Solid:pixelsize=10:antialias=false;3
 
 modules-left = bspwm mpd
 modules-center = xwindow
-modules-right = openweathermap-detailed date cpu memory temperature battery alsa xbacklight wlan
+modules-right = date openweathermap-detailed cpu memory temperature battery alsa xbacklight wlan
 
 tray-position = right
 tray-padding = 2
@@ -334,7 +334,9 @@ ramp-foreground = ${colors.foreground}
 type = custom/script
 exec = ~/.config/polybar/openweathermap-detailed.sh
 interval = 600
-label-font = 4 
+label-font = 4
+format-underline = #0a6cf5
+
 
 [module/powermenu]
 type = custom/menu
