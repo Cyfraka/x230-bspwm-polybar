@@ -59,7 +59,7 @@ font-5 = FontAwesome5Brands:style=Solid:pixelsize=10:antialias=false;3
 
 modules-left = bspwm mpd
 modules-center = xwindow
-modules-right = date openweathermap-detailed cpu memory temperature battery alsa xbacklight wlan
+modules-right = cpu memory temperature battery alsa xbacklight wlan date openweathermap-detailed
 
 tray-position = right
 tray-padding = 2
