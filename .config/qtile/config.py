@@ -102,13 +102,13 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        bottom=bar.Bar(
+        top=bar.Bar(
             [
                 widget.CurrentLayout(),
                 widget.GroupBox(),
                 widget.Prompt(),
                 widget.WindowName(),
-                widget.TextBox("default config", name="default"),
+                widget.TextBox("Cyfraka", name="default")
                 widget.Systray(),
                 widget.Clock(format='%d-%m-%y %a %I:%M %p'),
                 widget.QuickExit(),
