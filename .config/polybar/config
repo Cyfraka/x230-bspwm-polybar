@@ -1,20 +1,8 @@
-;==========================================================
-;
-;
-;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
-;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
-;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
-;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
-;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
-;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-;
-;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/polybar/polybar
-;
-;   by Cufraka
-;
-;==========================================================
+;================;
+;		 ;
+;     Cyfraka    ; 
+;		 ;
+;================;
 
 [colors]
 background = #222
@@ -55,7 +43,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = FontAwesome5Free:pixelsize=10:antialias=false;3
 font-4 = FontAwesome5Free:style=Solid:pixelsize=10:antialias=false;3
-font-5 = FontAwesome5Brands:style=Solid:pixelsize=10:antialias=false;3
+font-5 = Weather Icons:pixelsize=10:antialias=false;3
 
 modules-left = bspwm mpd
 modules-center = xwindow
@@ -334,7 +322,7 @@ ramp-foreground = ${colors.foreground}
 type = custom/script
 exec = ~/.config/polybar/openweathermap-detailed.sh
 interval = 600
-label-font = 4
+label-font = 6 
 format-underline = #0a6cf5
 
 
