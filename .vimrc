@@ -7,7 +7,7 @@
 
 
 " Automatic reloading of .vimrc
-autocmd! bufwritepost .vimrc source %
+""autocmd! bufwritepost .vimrc source %
 
 
 " Better copy & paste
@@ -38,14 +38,14 @@ inoremap <C-n> :nohl<CR>
 
 
 " Quicksave command
-noremap <C-Z> :update<CR>
-vnoremap <C-Z> <C-C>:update<CR>
-inoremap <C-Z> <C-O>:update<CR>
+"" noremap <C-Z> :update<CR>
+"" vnoremap <C-Z> <C-C>:update<CR>
+"" inoremap <C-Z> <C-O>:update<CR>
 
 
 " Quick quit command
-noremap <Leader>e :quit<CR> " Quit current window
-noremap <Leader>E :qa!<CR> " Quit all windows
+"" noremap <Leader>e :quit<CR> " Quit current window
+"" noremap <Leader>E :qa!<CR> " Quit all windows
 
 
 " bind Ctrl+<movement> keys to move around the windows, instead of using Ctrl+w + <movement>
@@ -130,9 +130,9 @@ set smartcase
 
 " Disable stupid backup and swap files - they trigger too many events
 " for file system watchers
-set nobackup
-set nowritebackup
-set noswapfile
+"" set nobackup
+"" set nowritebackup
+"" set noswapfile
 
 
 " Setup Pathogen to manage your plugins
